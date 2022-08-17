@@ -1,0 +1,26 @@
+{% extends "board_base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block content %}
+    <div class="card-columns">
+        {% for forum_profile in forum_profiles %}
+            <div class="card">
+                {% if forum_profile.avatar %}
+                    <img class="avatar" src="{{MEDIA_URL}}{{ forum_profile.avatar }}" class="card-img-top" alt="{{ forum_profile.user.first_name }} {{ forum_profile.user.last_name }}">
+                {% endif %}
+                <div class="card-body">
+                    <h5 class="card-title">{{ forum_profile.user.first_name }} {{ forum_profile.user.last_name }}</h5>
+                    {% if forum_profile.signature %}
+                        <p class="card-text">{{ forum_profile.signature }}</p>
+                    {% endif %}
+
+                    <p class="card-text"><small class="text-muted">Membre</small></p>
+                </div>
+            </div>
+        {% empty %}
+            No body yet…
+        {% endfor %}
+    </div>
+
+{% endblock content %}

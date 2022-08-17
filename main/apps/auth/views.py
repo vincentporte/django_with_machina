@@ -9,11 +9,25 @@ from django.urls import reverse
 from django.utils.decorators import method_decorator
 from django.utils.translation import gettext_lazy as _
 from django.views.generic import CreateView, FormView, ListView, UpdateView
+from machina.apps.forum_member.models import ForumProfile
 
 from main.common.mixins import MenuItemMixin
 
 from .forms import UserCreationForm, UserDeletionForm, UserParametersForm
 
+
+class UsersView(ListView):
+    model = ForumProfile
+    template_name = "directories/users.html"
+    context_object_name = "forum_profiles"
+    paginate_by = settings.DIRECTORY_USERS_PER_PAGE
+
+    def get_context_data(self, **kwargs):
+
+        context = super(UsersView, self).get_context_data(**kwargs)
+        context["MEDIA_URL"] = settings.MEDIA_URL
+
+        return context
 
 
 class UserCreateView(CreateView):

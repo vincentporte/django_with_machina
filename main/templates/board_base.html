@@ -77,4 +77,22 @@
         {% endblock content %}
     </div>
     <div id="push"></div>
+
+
+
+
+
+
+    <footer id="footer" class="py-2 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-right text-muted">
+                        <a href="{% url 'directory' %}">Annuaire</a> | <a href="#">Forum</a> | <a href="#">Aide & Assistance</a> | <a href="{% url 'forum_search:search' %}">{% trans "Advanced search" %}</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 {% endblock body %}
