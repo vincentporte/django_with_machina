@@ -1,0 +1,74 @@
+[tool.poetry]
+name = "django_with_machina"
+version = "0.0.1.dev"
+description = "A Django Project using a django forum engine for building powerful community driven websites."
+authors = ["Vincent Porte <vincent@neuralia.co>","Morgan Aubert <me@morganaubert.name>"]
+license = "BSD-3-Clause"
+readme = "README.rst"
+homepage = "https://github.com/vincentporte/django_with_machina"
+repository = "https://github.com/vincentporte/django_with_machina"
+keywords = ["django", "forum", "board", "messages"]
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'Environment :: Web Environment',
+    'Framework :: Django',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: BSD License',
+    'Natural Language :: English',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.10',
+    'Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Message Boards',
+]
+include = [
+    "AUTHORS",
+    "CHANGELOG.rst",
+    "LICENSE",
+    "*.rst",
+]
+exclude = ["tests"]
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+Django= "4.1"
+django-machina = "1.2.0"
+django-haystack = "3.2.1"
+django-mptt = "0.13.4"
+django-widget-tweaks = "1.4.12"
+markdown2 = "2.4.3"
+Pillow = "9.2.0"
+django-js-asset = "2.0.0"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+codecov = "*"
+django-debug-toolbar = "*"
+djhtml = "*"
+factory-boy = "*"
+faker = "*"
+flake8 = "*"
+ipython = "*"
+isort = "*"
+mock = "*"
+pylint = "*"
+pylint-django = "*"
+pytest = ">=6.2.5"
+pytest-cov = "*"
+pytest-django = "*"
+pytest-pythonpath = "*"
+pytest-spec = "*"
+pytest-xdist = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+sqlparse = "*"
+whoosh = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.black]
+line_length = 119
+
+[tool.isort]
+profile = "black"

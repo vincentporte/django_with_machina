@@ -1,0 +1,6 @@
+# For the application
+####################################################
+export DJANGO_DEBUG=True
+export DJANGO_LOG_LEVEL=WARNING
+export SQL_LOG_LEVEL=INFO
+export DJANGO_SECRET_KEY=foobar
