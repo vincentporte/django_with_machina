@@ -1,0 +1,8 @@
+{% extends "machina/forum/index.html" %}
+{% load i18n %}
+{% load mptt_tags %}
+{% load forum_tags %}
+
+{% block content %}
+    {% forum_list forums %}
+{% endblock content %}
