@@ -65,3 +65,8 @@ from machina.core.loading import get_class
 ForumAdmin = get_class("forum.admin", "ForumAdmin")
 ForumAdmin.fieldsets += (("Privacy", {"fields": ("kind", "moderators_group", "contributors_group")}),)
 ```
+
+
+# Docs
+* [django-machina on readthedocs.io](https://django-machina.readthedocs.io/en/stable/)
+* [django-machina on github](https://github.com/ellmetha/django-machina/)
