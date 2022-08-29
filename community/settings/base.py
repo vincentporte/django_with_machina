@@ -3,9 +3,6 @@ from pathlib import Path
 
 from django.urls import reverse_lazy
 
-from machina import MACHINA_MAIN_STATIC_DIR, MACHINA_MAIN_TEMPLATE_DIR
-
-
 PROJECT_PATH = Path(__file__).parents[2]
 
 
@@ -28,17 +25,19 @@ INSTALLED_APPS = (
     "widget_tweaks",
     # Machina apps
     "machina",
-    "machina.apps.forum",
-    "machina.apps.forum_conversation",
     "machina.apps.forum_conversation.forum_attachments",
     "machina.apps.forum_conversation.forum_polls",
     "machina.apps.forum_feeds",
     "machina.apps.forum_moderation",
     "machina.apps.forum_search",
     "machina.apps.forum_tracking",
-    "machina.apps.forum_member",
     "machina.apps.forum_permission",
     # Overridden machina apps:
+    "main.apps.forum",
+    "main.apps.forum_conversation",
+    "main.apps.forum_member",
+    # Not Machina apps
+    "main.apps.forum_category",
 )
 
 
@@ -46,6 +45,7 @@ INSTALLED_APPS = (
 # ------------------------------------------------------------------------------
 
 MIGRATION_MODULES = {
+    "forum": "machina.apps.forum.migrations",
     "forum_conversation": "machina.apps.forum_conversation.migrations",
     "forum_member": "machina.apps.forum_member.migrations",
 }
@@ -80,7 +80,7 @@ DEBUG = os.environ.get("DJANGO_DEBUG") == "True"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": os.path.join(PROJECT_PATH, "test.db"),
+        "NAME": os.path.join(PROJECT_PATH, "community.db"),
     }
 }
 
@@ -123,7 +123,7 @@ LANGUAGES = (
 DATE_INPUT_FORMATS = ["%d/%m/%Y", "%d-%m-%Y", "%d %m %Y"]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#locale-paths
-LOCALE_PATHS = (os.path.join(PROJECT_PATH, "project/locale"),)
+LOCALE_PATHS = (os.path.join(PROJECT_PATH, "community/locale"),)
 
 
 # SECRET CONFIGURATION
@@ -134,6 +134,8 @@ SECRET_KEY = os.environ["DJANGO_SECRET_KEY"]
 
 # TEMPLATE CONFIGURATION
 # ------------------------------------------------------------------------------
+
+from machina import MACHINA_MAIN_STATIC_DIR, MACHINA_MAIN_TEMPLATE_DIR
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#templates
 TEMPLATES = [
@@ -199,7 +201,7 @@ MEDIA_URL = "/media/"
 # URL CONFIGURATION
 # ------------------------------------------------------------------------------
 
-ROOT_URLCONF = "project.urls"
+ROOT_URLCONF = "community.urls"
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#wsgi-application
 WSGI_APPLICATION = "wsgi.application"

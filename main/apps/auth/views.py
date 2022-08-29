@@ -1,4 +1,3 @@
-from django.conf import settings
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout, update_session_auth_hash
 from django.contrib.auth.decorators import login_required
@@ -8,26 +7,12 @@ from django.http import HttpResponseRedirect
 from django.urls import reverse
 from django.utils.decorators import method_decorator
 from django.utils.translation import gettext_lazy as _
-from django.views.generic import CreateView, FormView, ListView, UpdateView
-from machina.apps.forum_member.models import ForumProfile
+from django.views.generic import CreateView, FormView, UpdateView
+from django.views.generic.base import TemplateView
 
 from main.common.mixins import MenuItemMixin
 
 from .forms import UserCreationForm, UserDeletionForm, UserParametersForm
-
-
-class UsersView(ListView):
-    model = ForumProfile
-    template_name = "directories/users.html"
-    context_object_name = "forum_profiles"
-    paginate_by = settings.DIRECTORY_USERS_PER_PAGE
-
-    def get_context_data(self, **kwargs):
-
-        context = super(UsersView, self).get_context_data(**kwargs)
-        context["MEDIA_URL"] = settings.MEDIA_URL
-
-        return context
 
 
 class UserCreateView(CreateView):
@@ -117,3 +102,13 @@ class UserDeleteView(MenuItemMixin, FormView):
         logout(self.request)
         messages.success(self.request, _("Your account has been removed"))
         return HttpResponseRedirect(reverse("forum:index"))
+
+
+class HomePageView(TemplateView):
+
+    template_name = "forum/homepage.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["member"] = self.request.user
+        return context

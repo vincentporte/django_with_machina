@@ -1,0 +1,170 @@
+[
+{
+  "model": "forum_category.forumcategory",
+  "pk": 1,
+  "fields": {
+    "name": "Bourgogne-Franche-Comté"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 2,
+  "fields": {
+    "name": "Centre Val de Loire"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 3,
+  "fields": {
+    "name": "Diagoriente"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 4,
+  "fields": {
+    "name": "DORA"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 5,
+  "fields": {
+    "name": "Employeurs"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 6,
+  "fields": {
+    "name": "Grand Est"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 7,
+  "fields": {
+    "name": "Haut de France"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 8,
+  "fields": {
+    "name": "Île de France"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 9,
+  "fields": {
+    "name": "Île de la Réunion"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 10,
+  "fields": {
+    "name": "Immersion Facilitée"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 11,
+  "fields": {
+    "name": "La Communauté de l'Inclusion"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 12,
+  "fields": {
+    "name": "La Plateforme de l'Inclusion"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 13,
+  "fields": {
+    "name": "Le Contrat Engagement Jeune"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 14,
+  "fields": {
+    "name": "Le Marché de l'Inclusion"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 15,
+  "fields": {
+    "name": "Le Pilotage de l'Inclusion"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 16,
+  "fields": {
+    "name": "Les Emplois de l'Inclusion"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 17,
+  "fields": {
+    "name": "Les Régionales de l'Inclusion"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 18,
+  "fields": {
+    "name": "Normandie"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 19,
+  "fields": {
+    "name": "Nouvelle Aquitaine"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 20,
+  "fields": {
+    "name": "Occitanie"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 21,
+  "fields": {
+    "name": "PACA"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 22,
+  "fields": {
+    "name": "Prescripteurs"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 23,
+  "fields": {
+    "name": "RDV Insertion"
+  }
+},
+{
+  "model": "forum_category.forumcategory",
+  "pk": 24,
+  "fields": {
+    "name": "SPIE"
+  }
+}
+]

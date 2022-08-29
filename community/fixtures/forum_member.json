@@ -1,0 +1,80 @@
+[
+{
+  "model": "forum_member.forumprofile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "avatar": "machina/avatar_images/4868a724405f4bc3963bfa7a97d1ba31.png",
+    "signature": "my world 🌳",
+    "posts_count": 1,
+    "is_ambassador": false,
+    "linkedin_url": "https://www.linkedin.com/in/vincentporte",
+    "_signature_rendered": "<p>my world 🌳</p>"
+  }
+},
+{
+  "model": "forum_member.forumprofile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "avatar": "machina/avatar_images/d9e6b257f1904c7a82fb82674aea1b30.png",
+    "signature": "Play like a Pirat, Work like a Captain\r\n[home](https://vincentporte.gitlab.io)",
+    "posts_count": 2,
+    "is_ambassador": true,
+    "linkedin_url": null,
+    "_signature_rendered": "<p>Play like a Pirat, Work like a Captain<br />\n<a href=\"https://vincentporte.gitlab.io\">home</a></p>"
+  }
+},
+{
+  "model": "forum_member.forumprofile",
+  "pk": 3,
+  "fields": {
+    "user": 4,
+    "avatar": "machina/avatar_images/a792f8a77872433eb8968d1336c20ea7.png",
+    "signature": "habiter le monde",
+    "posts_count": 1,
+    "is_ambassador": false,
+    "linkedin_url": null,
+    "_signature_rendered": "<p>habiter le monde</p>"
+  }
+},
+{
+  "model": "forum_member.forumprofile",
+  "pk": 4,
+  "fields": {
+    "user": 3,
+    "avatar": "",
+    "signature": null,
+    "posts_count": 9,
+    "is_ambassador": false,
+    "linkedin_url": null,
+    "_signature_rendered": null
+  }
+},
+{
+  "model": "forum_member.forumprofile",
+  "pk": 5,
+  "fields": {
+    "user": 5,
+    "avatar": "machina/avatar_images/811bae0957dc4a4ca6252e14aac3e1fa.png",
+    "signature": "",
+    "posts_count": 3,
+    "is_ambassador": false,
+    "linkedin_url": null,
+    "_signature_rendered": "<p></p>"
+  }
+},
+{
+  "model": "forum_member.forumprofile",
+  "pk": 6,
+  "fields": {
+    "user": 6,
+    "avatar": "",
+    "signature": "",
+    "posts_count": 0,
+    "is_ambassador": true,
+    "linkedin_url": null,
+    "_signature_rendered": "<p></p>"
+  }
+}
+]

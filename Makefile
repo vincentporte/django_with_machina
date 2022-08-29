@@ -1,5 +1,5 @@
 PROJECT_PACKAGE := main
-PROJECT_CONFIGURATION_PACKAGE := project
+PROJECT_CONFIGURATION_PACKAGE := community
 DJANGO_SETTINGS_MODULE := $(PROJECT_CONFIGURATION_PACKAGE).settings.dev
 
 
@@ -7,7 +7,7 @@ init:
 	poetry install
 
 
-.PHONY: c console migrate migrations s server superuser
+.PHONY: c console migrate migrations s server superuser dumpfixtures rebuild_index
 
 
 # DEVELOPMENT
@@ -28,11 +28,20 @@ migrations:
 
 s: server
 server:
-	poetry run python manage.py runserver 0.0.0.0:8000 --settings=$(DJANGO_SETTINGS_MODULE)
+	poetry run python manage.py runserver 127.0.0.1:8000 --settings=$(DJANGO_SETTINGS_MODULE)
 
 superuser:
 	poetry run python manage.py createsuperuser --settings=$(DJANGO_SETTINGS_MODULE)
 
+export_fixtures:
+	./scripts/export_fixtures.sh
+
+populate_db:
+	poetry run python manage.py loaddata $(PROJECT_CONFIGURATION_PACKAGE)/fixtures/*
+
+rebuild_index:
+	poetry run python manage.py rebuild_index
+# poetry run python manage.py dumpdata forum_permission --indent 2 --format json --settings=$(DJANGO_SETTINGS_MODULE)
 
 # QUALITY ASSURANCE
 # ~~~~~~~~~~~~~~~~~

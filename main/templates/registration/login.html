@@ -24,6 +24,7 @@
                         <input type="hidden" name="next" value="/">
                         <div class="form-actions">
                             <a href="{% url 'password_reset' %}"class="btn btn-large btn-default">{% trans "Forgot password?" %}</a>
+                            <input type="hidden" name="next" value="{{ request.GET.next }}"/>
                             <input type="submit" class="btn btn-large btn-primary" value="{% trans "Login" %}" />
                         </div>
                     </form>

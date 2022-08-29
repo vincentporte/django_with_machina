@@ -1,0 +1,5343 @@
+[
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 1,
+  "fields": {
+    "codename": "can_see_forum"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 2,
+  "fields": {
+    "codename": "can_read_forum"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 3,
+  "fields": {
+    "codename": "can_start_new_topics"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 4,
+  "fields": {
+    "codename": "can_reply_to_topics"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 5,
+  "fields": {
+    "codename": "can_post_announcements"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 6,
+  "fields": {
+    "codename": "can_post_stickies"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 7,
+  "fields": {
+    "codename": "can_delete_own_posts"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 8,
+  "fields": {
+    "codename": "can_edit_own_posts"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 9,
+  "fields": {
+    "codename": "can_post_without_approval"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 10,
+  "fields": {
+    "codename": "can_create_polls"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 11,
+  "fields": {
+    "codename": "can_vote_in_polls"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 12,
+  "fields": {
+    "codename": "can_attach_file"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 13,
+  "fields": {
+    "codename": "can_download_file"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 14,
+  "fields": {
+    "codename": "can_lock_topics"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 15,
+  "fields": {
+    "codename": "can_move_topics"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 16,
+  "fields": {
+    "codename": "can_edit_posts"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 17,
+  "fields": {
+    "codename": "can_delete_posts"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 18,
+  "fields": {
+    "codename": "can_approve_posts"
+  }
+},
+{
+  "model": "forum_permission.forumpermission",
+  "pk": 19,
+  "fields": {
+    "codename": "can_reply_to_locked_topics"
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 229,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 230,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 231,
+  "fields": {
+    "permission": 7,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 232,
+  "fields": {
+    "permission": 8,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 233,
+  "fields": {
+    "permission": 5,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 234,
+  "fields": {
+    "permission": 6,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 235,
+  "fields": {
+    "permission": 9,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 236,
+  "fields": {
+    "permission": 4,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 237,
+  "fields": {
+    "permission": 3,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 238,
+  "fields": {
+    "permission": 10,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 239,
+  "fields": {
+    "permission": 11,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 240,
+  "fields": {
+    "permission": 12,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 241,
+  "fields": {
+    "permission": 13,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 242,
+  "fields": {
+    "permission": 19,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 243,
+  "fields": {
+    "permission": 18,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 244,
+  "fields": {
+    "permission": 17,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 245,
+  "fields": {
+    "permission": 16,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 246,
+  "fields": {
+    "permission": 14,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 247,
+  "fields": {
+    "permission": 15,
+    "has_perm": true,
+    "forum": 12,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 248,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 249,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 250,
+  "fields": {
+    "permission": 7,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 251,
+  "fields": {
+    "permission": 8,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 252,
+  "fields": {
+    "permission": 5,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 253,
+  "fields": {
+    "permission": 6,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 254,
+  "fields": {
+    "permission": 9,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 255,
+  "fields": {
+    "permission": 4,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 256,
+  "fields": {
+    "permission": 3,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 257,
+  "fields": {
+    "permission": 10,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 258,
+  "fields": {
+    "permission": 11,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 259,
+  "fields": {
+    "permission": 12,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 260,
+  "fields": {
+    "permission": 13,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 261,
+  "fields": {
+    "permission": 19,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 262,
+  "fields": {
+    "permission": 18,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 263,
+  "fields": {
+    "permission": 17,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 264,
+  "fields": {
+    "permission": 16,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 265,
+  "fields": {
+    "permission": 14,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 266,
+  "fields": {
+    "permission": 15,
+    "has_perm": true,
+    "forum": 16,
+    "group": 9
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 267,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 268,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 269,
+  "fields": {
+    "permission": 7,
+    "has_perm": true,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 270,
+  "fields": {
+    "permission": 8,
+    "has_perm": true,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 271,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 272,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 273,
+  "fields": {
+    "permission": 9,
+    "has_perm": true,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 274,
+  "fields": {
+    "permission": 4,
+    "has_perm": true,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 275,
+  "fields": {
+    "permission": 3,
+    "has_perm": true,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 276,
+  "fields": {
+    "permission": 10,
+    "has_perm": true,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 277,
+  "fields": {
+    "permission": 11,
+    "has_perm": true,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 278,
+  "fields": {
+    "permission": 12,
+    "has_perm": true,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 279,
+  "fields": {
+    "permission": 13,
+    "has_perm": true,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 280,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 281,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 282,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 283,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 284,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 285,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 16,
+    "group": 8
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 286,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 287,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 288,
+  "fields": {
+    "permission": 7,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 289,
+  "fields": {
+    "permission": 8,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 290,
+  "fields": {
+    "permission": 5,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 291,
+  "fields": {
+    "permission": 6,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 292,
+  "fields": {
+    "permission": 9,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 293,
+  "fields": {
+    "permission": 4,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 294,
+  "fields": {
+    "permission": 3,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 295,
+  "fields": {
+    "permission": 10,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 296,
+  "fields": {
+    "permission": 11,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 297,
+  "fields": {
+    "permission": 12,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 298,
+  "fields": {
+    "permission": 13,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 299,
+  "fields": {
+    "permission": 19,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 300,
+  "fields": {
+    "permission": 18,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 301,
+  "fields": {
+    "permission": 17,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 302,
+  "fields": {
+    "permission": 16,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 303,
+  "fields": {
+    "permission": 14,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 304,
+  "fields": {
+    "permission": 15,
+    "has_perm": true,
+    "forum": 17,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 305,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 306,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 307,
+  "fields": {
+    "permission": 7,
+    "has_perm": true,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 308,
+  "fields": {
+    "permission": 8,
+    "has_perm": true,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 309,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 310,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 311,
+  "fields": {
+    "permission": 9,
+    "has_perm": true,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 312,
+  "fields": {
+    "permission": 4,
+    "has_perm": true,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 313,
+  "fields": {
+    "permission": 3,
+    "has_perm": true,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 314,
+  "fields": {
+    "permission": 10,
+    "has_perm": true,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 315,
+  "fields": {
+    "permission": 11,
+    "has_perm": true,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 316,
+  "fields": {
+    "permission": 12,
+    "has_perm": true,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 317,
+  "fields": {
+    "permission": 13,
+    "has_perm": true,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 318,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 319,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 320,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 321,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 322,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 323,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 17,
+    "group": 7
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 324,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 9,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 325,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 9,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 326,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 18,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 327,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 18,
+    "group": 6
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 328,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 329,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 330,
+  "fields": {
+    "permission": 7,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 331,
+  "fields": {
+    "permission": 8,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 332,
+  "fields": {
+    "permission": 5,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 333,
+  "fields": {
+    "permission": 6,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 334,
+  "fields": {
+    "permission": 9,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 335,
+  "fields": {
+    "permission": 4,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 336,
+  "fields": {
+    "permission": 3,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 337,
+  "fields": {
+    "permission": 10,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 338,
+  "fields": {
+    "permission": 11,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 339,
+  "fields": {
+    "permission": 12,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 340,
+  "fields": {
+    "permission": 13,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 341,
+  "fields": {
+    "permission": 19,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 342,
+  "fields": {
+    "permission": 18,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 343,
+  "fields": {
+    "permission": 17,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 344,
+  "fields": {
+    "permission": 16,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 345,
+  "fields": {
+    "permission": 14,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 346,
+  "fields": {
+    "permission": 15,
+    "has_perm": true,
+    "forum": 18,
+    "group": 10
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 347,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 348,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 349,
+  "fields": {
+    "permission": 7,
+    "has_perm": true,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 350,
+  "fields": {
+    "permission": 8,
+    "has_perm": true,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 351,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 352,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 353,
+  "fields": {
+    "permission": 9,
+    "has_perm": true,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 354,
+  "fields": {
+    "permission": 4,
+    "has_perm": true,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 355,
+  "fields": {
+    "permission": 3,
+    "has_perm": true,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 356,
+  "fields": {
+    "permission": 10,
+    "has_perm": true,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 357,
+  "fields": {
+    "permission": 11,
+    "has_perm": true,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 358,
+  "fields": {
+    "permission": 12,
+    "has_perm": true,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 359,
+  "fields": {
+    "permission": 13,
+    "has_perm": true,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 360,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 361,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 362,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 363,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 364,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 365,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 18,
+    "group": 11
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 385,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 386,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 387,
+  "fields": {
+    "permission": 3,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 388,
+  "fields": {
+    "permission": 5,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 389,
+  "fields": {
+    "permission": 6,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 390,
+  "fields": {
+    "permission": 9,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 391,
+  "fields": {
+    "permission": 4,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 392,
+  "fields": {
+    "permission": 7,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 393,
+  "fields": {
+    "permission": 8,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 394,
+  "fields": {
+    "permission": 10,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 395,
+  "fields": {
+    "permission": 11,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 396,
+  "fields": {
+    "permission": 12,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 397,
+  "fields": {
+    "permission": 13,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 398,
+  "fields": {
+    "permission": 19,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 399,
+  "fields": {
+    "permission": 18,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 400,
+  "fields": {
+    "permission": 15,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 401,
+  "fields": {
+    "permission": 17,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 402,
+  "fields": {
+    "permission": 14,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.groupforumpermission",
+  "pk": 403,
+  "fields": {
+    "permission": 16,
+    "has_perm": true,
+    "forum": 19,
+    "group": 4
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 296,
+  "fields": {
+    "permission": 2,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 297,
+  "fields": {
+    "permission": 1,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 298,
+  "fields": {
+    "permission": 7,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 299,
+  "fields": {
+    "permission": 8,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 300,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 301,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 302,
+  "fields": {
+    "permission": 9,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 303,
+  "fields": {
+    "permission": 4,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 304,
+  "fields": {
+    "permission": 3,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 305,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 306,
+  "fields": {
+    "permission": 11,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 307,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 308,
+  "fields": {
+    "permission": 13,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 309,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 310,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 311,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 312,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 313,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 314,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 315,
+  "fields": {
+    "permission": 2,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 316,
+  "fields": {
+    "permission": 1,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 317,
+  "fields": {
+    "permission": 7,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 318,
+  "fields": {
+    "permission": 8,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 319,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 320,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 321,
+  "fields": {
+    "permission": 9,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 322,
+  "fields": {
+    "permission": 4,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 323,
+  "fields": {
+    "permission": 3,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 324,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 325,
+  "fields": {
+    "permission": 11,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 326,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 327,
+  "fields": {
+    "permission": 13,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 328,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 329,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 330,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 331,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 332,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 333,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": null,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 372,
+  "fields": {
+    "permission": 2,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 373,
+  "fields": {
+    "permission": 1,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 374,
+  "fields": {
+    "permission": 7,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 375,
+  "fields": {
+    "permission": 8,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 376,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 377,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 378,
+  "fields": {
+    "permission": 9,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 379,
+  "fields": {
+    "permission": 4,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 380,
+  "fields": {
+    "permission": 3,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 381,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 382,
+  "fields": {
+    "permission": 11,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 383,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 384,
+  "fields": {
+    "permission": 13,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 385,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 386,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 387,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 388,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 389,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 390,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 391,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 392,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 393,
+  "fields": {
+    "permission": 7,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 394,
+  "fields": {
+    "permission": 8,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 395,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 396,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 397,
+  "fields": {
+    "permission": 9,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 398,
+  "fields": {
+    "permission": 4,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 399,
+  "fields": {
+    "permission": 3,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 400,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 401,
+  "fields": {
+    "permission": 11,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 402,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 403,
+  "fields": {
+    "permission": 13,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 404,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 405,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 406,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 407,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 408,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 409,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 9,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 410,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 411,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 412,
+  "fields": {
+    "permission": 7,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 413,
+  "fields": {
+    "permission": 8,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 414,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 415,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 416,
+  "fields": {
+    "permission": 9,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 417,
+  "fields": {
+    "permission": 4,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 418,
+  "fields": {
+    "permission": 3,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 419,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 420,
+  "fields": {
+    "permission": 11,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 421,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 422,
+  "fields": {
+    "permission": 13,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 423,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 424,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 425,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 426,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 427,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 428,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 429,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 430,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 431,
+  "fields": {
+    "permission": 7,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 432,
+  "fields": {
+    "permission": 8,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 433,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 434,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 435,
+  "fields": {
+    "permission": 9,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 436,
+  "fields": {
+    "permission": 4,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 437,
+  "fields": {
+    "permission": 3,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 438,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 439,
+  "fields": {
+    "permission": 11,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 440,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 441,
+  "fields": {
+    "permission": 13,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 442,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 443,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 444,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 445,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 446,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 447,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 11,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 448,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 449,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 450,
+  "fields": {
+    "permission": 7,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 451,
+  "fields": {
+    "permission": 8,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 452,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 453,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 454,
+  "fields": {
+    "permission": 9,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 455,
+  "fields": {
+    "permission": 4,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 456,
+  "fields": {
+    "permission": 3,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 457,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 458,
+  "fields": {
+    "permission": 11,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 459,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 460,
+  "fields": {
+    "permission": 13,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 461,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 462,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 463,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 464,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 465,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 466,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 467,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 468,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 469,
+  "fields": {
+    "permission": 7,
+    "has_perm": true,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 470,
+  "fields": {
+    "permission": 8,
+    "has_perm": true,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 471,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 472,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 473,
+  "fields": {
+    "permission": 9,
+    "has_perm": true,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 474,
+  "fields": {
+    "permission": 4,
+    "has_perm": true,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 475,
+  "fields": {
+    "permission": 3,
+    "has_perm": true,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 476,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 477,
+  "fields": {
+    "permission": 11,
+    "has_perm": true,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 478,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 479,
+  "fields": {
+    "permission": 13,
+    "has_perm": true,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 480,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 481,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 482,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 483,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 484,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 485,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 12,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 600,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 601,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 602,
+  "fields": {
+    "permission": 7,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 603,
+  "fields": {
+    "permission": 8,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 604,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 605,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 606,
+  "fields": {
+    "permission": 9,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 607,
+  "fields": {
+    "permission": 4,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 608,
+  "fields": {
+    "permission": 3,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 609,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 610,
+  "fields": {
+    "permission": 11,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 611,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 612,
+  "fields": {
+    "permission": 13,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 613,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 614,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 615,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 616,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 617,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 618,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 619,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 620,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 621,
+  "fields": {
+    "permission": 7,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 622,
+  "fields": {
+    "permission": 8,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 623,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 624,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 625,
+  "fields": {
+    "permission": 9,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 626,
+  "fields": {
+    "permission": 4,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 627,
+  "fields": {
+    "permission": 3,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 628,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 629,
+  "fields": {
+    "permission": 11,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 630,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 631,
+  "fields": {
+    "permission": 13,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 632,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 633,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 634,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 635,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 636,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 637,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 16,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 638,
+  "fields": {
+    "permission": 2,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 639,
+  "fields": {
+    "permission": 1,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 640,
+  "fields": {
+    "permission": 7,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 641,
+  "fields": {
+    "permission": 8,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 642,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 643,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 644,
+  "fields": {
+    "permission": 9,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 645,
+  "fields": {
+    "permission": 4,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 646,
+  "fields": {
+    "permission": 3,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 647,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 648,
+  "fields": {
+    "permission": 11,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 649,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 650,
+  "fields": {
+    "permission": 13,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 651,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 652,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 653,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 654,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 655,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 656,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 657,
+  "fields": {
+    "permission": 2,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 658,
+  "fields": {
+    "permission": 1,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 659,
+  "fields": {
+    "permission": 7,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 660,
+  "fields": {
+    "permission": 8,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 661,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 662,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 663,
+  "fields": {
+    "permission": 9,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 664,
+  "fields": {
+    "permission": 4,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 665,
+  "fields": {
+    "permission": 3,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 666,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 667,
+  "fields": {
+    "permission": 11,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 668,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 669,
+  "fields": {
+    "permission": 13,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 670,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 671,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 672,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 673,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 674,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 675,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 17,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 676,
+  "fields": {
+    "permission": 2,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 677,
+  "fields": {
+    "permission": 1,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 678,
+  "fields": {
+    "permission": 7,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 679,
+  "fields": {
+    "permission": 8,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 680,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 681,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 682,
+  "fields": {
+    "permission": 9,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 683,
+  "fields": {
+    "permission": 4,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 684,
+  "fields": {
+    "permission": 3,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 685,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 686,
+  "fields": {
+    "permission": 11,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 687,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 688,
+  "fields": {
+    "permission": 13,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 689,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 690,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 691,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 692,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 693,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 694,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 695,
+  "fields": {
+    "permission": 2,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 696,
+  "fields": {
+    "permission": 1,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 697,
+  "fields": {
+    "permission": 7,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 698,
+  "fields": {
+    "permission": 8,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 699,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 700,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 701,
+  "fields": {
+    "permission": 9,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 702,
+  "fields": {
+    "permission": 4,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 703,
+  "fields": {
+    "permission": 3,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 704,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 705,
+  "fields": {
+    "permission": 11,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 706,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 707,
+  "fields": {
+    "permission": 13,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 708,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 709,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 710,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 711,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 712,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 713,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 18,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 714,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 715,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 716,
+  "fields": {
+    "permission": 3,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 717,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 718,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 719,
+  "fields": {
+    "permission": 9,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 720,
+  "fields": {
+    "permission": 4,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 721,
+  "fields": {
+    "permission": 7,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 722,
+  "fields": {
+    "permission": 8,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 723,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 724,
+  "fields": {
+    "permission": 11,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 725,
+  "fields": {
+    "permission": 12,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 726,
+  "fields": {
+    "permission": 13,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 727,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 728,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 729,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 730,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 731,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 732,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": true,
+    "authenticated_user": false
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 733,
+  "fields": {
+    "permission": 2,
+    "has_perm": true,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 734,
+  "fields": {
+    "permission": 1,
+    "has_perm": true,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 735,
+  "fields": {
+    "permission": 3,
+    "has_perm": true,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 736,
+  "fields": {
+    "permission": 5,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 737,
+  "fields": {
+    "permission": 6,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 738,
+  "fields": {
+    "permission": 9,
+    "has_perm": true,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 739,
+  "fields": {
+    "permission": 4,
+    "has_perm": true,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 740,
+  "fields": {
+    "permission": 7,
+    "has_perm": true,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 741,
+  "fields": {
+    "permission": 8,
+    "has_perm": true,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 742,
+  "fields": {
+    "permission": 10,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 743,
+  "fields": {
+    "permission": 11,
+    "has_perm": true,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 744,
+  "fields": {
+    "permission": 12,
+    "has_perm": true,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 745,
+  "fields": {
+    "permission": 13,
+    "has_perm": true,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 746,
+  "fields": {
+    "permission": 19,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 747,
+  "fields": {
+    "permission": 18,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 748,
+  "fields": {
+    "permission": 15,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 749,
+  "fields": {
+    "permission": 17,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 750,
+  "fields": {
+    "permission": 14,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+},
+{
+  "model": "forum_permission.userforumpermission",
+  "pk": 751,
+  "fields": {
+    "permission": 16,
+    "has_perm": false,
+    "forum": 19,
+    "user": null,
+    "anonymous_user": false,
+    "authenticated_user": true
+  }
+}
+]

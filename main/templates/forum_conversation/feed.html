@@ -1,0 +1,107 @@
+{% extends "board_base.html" %}
+{% load i18n %}
+{% load static %}
+{% load forum_conversation_tags %}
+{% load forum_member_tags %}
+{% load forum_permission_tags %}
+
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-lg-8 col-md-10 col-12">
+
+    {%if kind %}
+    <div class="row">
+      <div class="col-md-12">
+          <h3>Filtrer par catégorie</h2>
+      </div>
+    </div>
+      <div class="row">
+          <div class="col-md-12">
+
+            {%for category in categories%}
+              <a href="{% url 'conversations:openforums_category' category.id %}" type="button" class="btn btn-{%if category.id != category_id%}outline-{%endif%}secondary">{{category.name}}</a>
+            {%endfor%}
+          </div>
+      </div>
+      {%endif%}
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <h2>Le fil d'actualités {%if kind %}du forum{%else%}de mes groupes{%endif%}</h2>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="row">
+        <div class="col-12">
+          {%if request.user.is_authenticated%}
+          <div class="card post-edit">
+            <div class="card-header">
+              <h3 class="m-0 h5 card-title">{% trans "Post a new topic" %}</h3>
+            </div>
+            <div class="card-body">
+              {% include "forum_conversation/partials/topic_form.html" %}
+            </div>
+          </div>
+          {%else%}
+          <a href="{% url 'login'%}?next={{ request.get_full_path }}" type="button" class="btn btn-outline-primary">Me connnecter pour poster un message</a>
+          {%endif%}
+
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-12">
+          {% for post in posts%}
+          {% get_permission 'can_add_post' post.topic request.user as user_can_add_post %}
+
+          <div class="card mt-3">
+              <div class="card-header">
+                  <a href="{%url 'members:profile' pk=post.poster_id%}">{{ post.poster|forum_member_display_name }}</a>
+                  a écrit dans <a href="{%url 'forums:group' slug=post.topic.forum.slug pk=post.topic.forum_id%}">
+                      {{post.topic.forum.name}}</a>, <small class="text-muted">il y a {{ post.created|timesince }}</small>
+                    {% if post.topic.category %}<span class="badge btn-secondary rounded-pill float-right">{{post.topic.category}}</span>{%endif%}
+
+              </div>
+              <div class="card-body">
+                  <h5 class="card-title">{{post.subject}}</h5>
+                  <p class="card-text">
+                      <div class="post-content">
+                          {{ post.content.rendered }}
+                      </div>
+                  </p>
+                  <div class="topic-actions-block">
+                      {% if request.user.is_authenticated %}
+                          {% include "forum_conversation/partials/topic_detail_actions.html" with topic=post.topic forum=post.topic.forum %}
+                          {% if not user_can_add_post %}
+                              <a href="#" class="btn btn-outline-secondary btn-sm">{% trans "Join this group to reply" %}</a>
+                          {% endif %}
+                      {% endif %}
+                  </div>
+              </div>
+          </div>
+
+      {% endfor %}
+        </div>
+      </div>
+  </div>
+</div>
+
+{% endblock content %}
+
+{% block onbodyload %}
+machina.poll.init();
+machina.attachment.init();
+{% endblock onbodyload %}
+
+{% block extra_css %}
+{{ post_form.media.css }}
+{% endblock extra_css %}
+
+{% block extra_js %}
+{{ post_form.media.js }}
+{% endblock extra_js %}

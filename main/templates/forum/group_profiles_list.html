@@ -1,0 +1,31 @@
+{% extends "board_base.html" %}
+{% load i18n %}
+{% load static %}
+
+
+{% block content %}
+    <h2>Annuaire du groupe </h2>
+    {%for user in profiles %}
+        <div class="row mt-3">
+            <div class="col-md-4">
+                {{user.first_name}} {{user.last_name}}
+                {%if user.groups__moderators_group %}
+                    <span class="badge rounded-pill txt-bg-dark bg-warning">animateur</span>
+                {%endif%}
+            </div>
+            <div class="col-md-2">
+                {% if not user.groups__moderators_group %}
+                    <button type="button" class="btn btn-warning btn-sm" disabled>Nommer animateur</button>
+                {% endif %}
+            </div>
+            <div class="col-md-2">
+                <button type="button" class="btn btn-outline-danger btn-sm" disabled>Retirer du groupe</button>
+            </div>
+        </div>
+
+
+
+
+    {%endfor%}
+
+{% endblock content %}

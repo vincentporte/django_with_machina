@@ -1,0 +1,41 @@
+{% extends "machina/forum/index.html" %}
+{% load i18n %}
+{% load mptt_tags %}
+
+{% block content %}
+
+    <div class="card-group">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Membres</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="{% url 'members:profiles' %}">{% trans "Directory" %}</a></li>
+                    {% if request.user.is_authenticated %}
+                        <li class="list-group-item"><a href="{% url 'members:profile' request.user.id %}">{% trans "My Profile" %}</a></li>
+                        <li class="list-group-item"><a href="{% url 'members:profile_posts' request.user.id %}">{% trans "My Posts" %}</a></li>
+                        <li class="list-group-item"><a href="{% url 'members:profile_subscriptions' %}">{% trans "My Subscriptions" %}</a></li>
+                        <li class="list-group-item"><a href="{% url 'members:profile_groups' request.user.id %}">{% trans "My Groups" %}</a></li>
+                    {%endif%}
+
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Groupes</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="{% url 'conversations:groups' %}">{% trans "Groups Feed" %}</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Forum ouvert</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="{% url 'conversations:openforums' %}">{% trans "Open Forums Feed" %}</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}

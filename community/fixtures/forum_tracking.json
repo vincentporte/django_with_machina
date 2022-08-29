@@ -1,0 +1,182 @@
+[
+{
+  "model": "forum_tracking.forumreadtrack",
+  "pk": 19,
+  "fields": {
+    "user": 1,
+    "forum": 9,
+    "mark_time": "2022-08-10T13:54:05.709Z"
+  }
+},
+{
+  "model": "forum_tracking.forumreadtrack",
+  "pk": 22,
+  "fields": {
+    "user": 1,
+    "forum": 16,
+    "mark_time": "2022-08-10T13:52:51.166Z"
+  }
+},
+{
+  "model": "forum_tracking.forumreadtrack",
+  "pk": 23,
+  "fields": {
+    "user": 1,
+    "forum": 11,
+    "mark_time": "2022-08-10T13:52:51.313Z"
+  }
+},
+{
+  "model": "forum_tracking.forumreadtrack",
+  "pk": 24,
+  "fields": {
+    "user": 2,
+    "forum": 16,
+    "mark_time": "2022-08-22T11:28:16.749Z"
+  }
+},
+{
+  "model": "forum_tracking.forumreadtrack",
+  "pk": 25,
+  "fields": {
+    "user": 2,
+    "forum": 11,
+    "mark_time": "2022-08-22T11:28:16.780Z"
+  }
+},
+{
+  "model": "forum_tracking.forumreadtrack",
+  "pk": 26,
+  "fields": {
+    "user": 3,
+    "forum": 16,
+    "mark_time": "2022-08-10T13:26:46.483Z"
+  }
+},
+{
+  "model": "forum_tracking.forumreadtrack",
+  "pk": 27,
+  "fields": {
+    "user": 3,
+    "forum": 11,
+    "mark_time": "2022-08-10T13:26:46.633Z"
+  }
+},
+{
+  "model": "forum_tracking.forumreadtrack",
+  "pk": 30,
+  "fields": {
+    "user": 4,
+    "forum": 17,
+    "mark_time": "2022-08-11T14:19:58.049Z"
+  }
+},
+{
+  "model": "forum_tracking.forumreadtrack",
+  "pk": 31,
+  "fields": {
+    "user": 4,
+    "forum": 9,
+    "mark_time": "2022-08-11T14:19:58.182Z"
+  }
+},
+{
+  "model": "forum_tracking.forumreadtrack",
+  "pk": 32,
+  "fields": {
+    "user": 3,
+    "forum": 18,
+    "mark_time": "2022-08-23T15:23:41.518Z"
+  }
+},
+{
+  "model": "forum_tracking.forumreadtrack",
+  "pk": 33,
+  "fields": {
+    "user": 3,
+    "forum": 9,
+    "mark_time": "2022-08-23T15:23:41.533Z"
+  }
+},
+{
+  "model": "forum_tracking.forumreadtrack",
+  "pk": 34,
+  "fields": {
+    "user": 5,
+    "forum": 17,
+    "mark_time": "2022-08-23T15:17:52.565Z"
+  }
+},
+{
+  "model": "forum_tracking.forumreadtrack",
+  "pk": 35,
+  "fields": {
+    "user": 5,
+    "forum": 9,
+    "mark_time": "2022-08-23T15:17:52.577Z"
+  }
+},
+{
+  "model": "forum_tracking.forumreadtrack",
+  "pk": 36,
+  "fields": {
+    "user": 1,
+    "forum": 18,
+    "mark_time": "2022-08-10T13:54:05.576Z"
+  }
+},
+{
+  "model": "forum_tracking.topicreadtrack",
+  "pk": 25,
+  "fields": {
+    "user": 4,
+    "topic": 11,
+    "mark_time": "2022-08-11T14:20:20.518Z"
+  }
+},
+{
+  "model": "forum_tracking.topicreadtrack",
+  "pk": 27,
+  "fields": {
+    "user": 1,
+    "topic": 11,
+    "mark_time": "2022-08-17T11:46:35.189Z"
+  }
+},
+{
+  "model": "forum_tracking.topicreadtrack",
+  "pk": 30,
+  "fields": {
+    "user": 1,
+    "topic": 14,
+    "mark_time": "2022-08-22T14:48:09.236Z"
+  }
+},
+{
+  "model": "forum_tracking.topicreadtrack",
+  "pk": 36,
+  "fields": {
+    "user": 3,
+    "topic": 14,
+    "mark_time": "2022-08-23T15:20:13.908Z"
+  }
+},
+{
+  "model": "forum_tracking.topicreadtrack",
+  "pk": 38,
+  "fields": {
+    "user": 5,
+    "topic": 19,
+    "mark_time": "2022-08-23T15:26:17.857Z"
+  }
+},
+{
+  "model": "forum_tracking.topicreadtrack",
+  "pk": 39,
+  "fields": {
+    "user": 3,
+    "topic": 21,
+    "mark_time": "2022-08-24T15:08:27.361Z"
+  }
+}
+]

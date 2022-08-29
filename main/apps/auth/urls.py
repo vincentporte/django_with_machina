@@ -24,5 +24,9 @@ urlpatterns = [
         views.UserDeleteView.as_view(),
         name="unregister",
     ),
-    path("directory/", views.UsersView.as_view(), name="directory"),
+    path(
+        "",
+        views.HomePageView.as_view(),
+        name="homepage",
+    ),
 ]

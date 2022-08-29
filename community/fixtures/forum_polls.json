@@ -1,0 +1,98 @@
+[
+{
+  "model": "forum_polls.topicpoll",
+  "pk": 5,
+  "fields": {
+    "created": "2022-08-23T08:59:06.330Z",
+    "updated": "2022-08-23T08:59:06.340Z",
+    "topic": 18,
+    "question": "Est ce que la team du C3 est cool",
+    "duration": 0,
+    "max_options": 1,
+    "user_changes": false
+  }
+},
+{
+  "model": "forum_polls.topicpoll",
+  "pk": 6,
+  "fields": {
+    "created": "2022-08-23T14:49:10.232Z",
+    "updated": "2022-08-23T14:49:10.243Z",
+    "topic": 19,
+    "question": "Comment trouvez-vous la communauté des emplois ?",
+    "duration": 0,
+    "max_options": 1,
+    "user_changes": false
+  }
+},
+{
+  "model": "forum_polls.topicpolloption",
+  "pk": 8,
+  "fields": {
+    "poll": 5,
+    "text": "top top top"
+  }
+},
+{
+  "model": "forum_polls.topicpolloption",
+  "pk": 9,
+  "fields": {
+    "poll": 5,
+    "text": "sure"
+  }
+},
+{
+  "model": "forum_polls.topicpolloption",
+  "pk": 10,
+  "fields": {
+    "poll": 6,
+    "text": "Cool"
+  }
+},
+{
+  "model": "forum_polls.topicpolloption",
+  "pk": 11,
+  "fields": {
+    "poll": 6,
+    "text": "J'ai hâte d'utiliser la nouvelle version"
+  }
+},
+{
+  "model": "forum_polls.topicpolloption",
+  "pk": 12,
+  "fields": {
+    "poll": 6,
+    "text": "Tu peux m'envoyer l'URL stp?"
+  }
+},
+{
+  "model": "forum_polls.topicpollvote",
+  "pk": 1,
+  "fields": {
+    "voter": 3,
+    "anonymous_key": null,
+    "poll_option": 8,
+    "timestamp": "2022-08-23T08:59:25.800Z"
+  }
+},
+{
+  "model": "forum_polls.topicpollvote",
+  "pk": 2,
+  "fields": {
+    "voter": 3,
+    "anonymous_key": null,
+    "poll_option": 11,
+    "timestamp": "2022-08-23T14:49:33.937Z"
+  }
+},
+{
+  "model": "forum_polls.topicpollvote",
+  "pk": 3,
+  "fields": {
+    "voter": 5,
+    "anonymous_key": null,
+    "poll_option": 10,
+    "timestamp": "2022-08-23T15:26:00.873Z"
+  }
+}
+]

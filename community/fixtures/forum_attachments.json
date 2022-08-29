@@ -1,0 +1,11 @@
+[
+{
+  "model": "forum_attachments.attachment",
+  "pk": 1,
+  "fields": {
+    "post": 23,
+    "file": "machina/attachments/1633704356299-01.jpeg",
+    "comment": "my life"
+  }
+}
+]
