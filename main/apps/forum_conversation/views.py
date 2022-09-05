@@ -22,7 +22,6 @@ class GroupsFeedListView(ListView):
             Forum.objects.exclude(kind=ForumKind.OPENFORUM),
             self.request.user,
         )
-        print(forums)
         return (
             Post.objects.filter(topic__forum__in=forums).select_related("topic", "topic__forum").order_by("-created")
         )
