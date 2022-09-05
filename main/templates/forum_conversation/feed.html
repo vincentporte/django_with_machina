@@ -64,6 +64,7 @@
                                 <a href="{%url 'members:profile' pk=post.poster_id%}">{{ post.poster|forum_member_display_name }}</a>
                                 a écrit dans <a href="{%url 'forums:group' slug=post.topic.forum.slug pk=post.topic.forum_id%}">
                                     {{post.topic.forum.name}}</a>, <small class="text-muted">il y a {{ post.created|timesince }}</small>
+                                <a href="{% url 'forum_conversation:topic' post.topic.forum.slug post.topic.forum.pk post.topic.slug post.topic.pk %}?post={{ post.pk }}#{{ post.pk }}"">lien</a>
                                     {% if post.topic.category %}<span class="badge btn-secondary rounded-pill float-right">{{post.topic.category}}</span>{%endif%}
                                     </div>
                                     <div class="card-body">
